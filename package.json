@@ -1,0 +1,31 @@
+{
+  "name": "testing-vuejs",
+  "version": "1.0.0",
+  "description": "Testing for VueJS",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha-webpack --webpack-config webpack.config.js --require test/setup.js test/**/*.spec.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dinhvantai/testing-vuejs.git"
+  },
+  "author": "TaiDV",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dinhvantai/testing-vuejs/issues"
+  },
+  "homepage": "https://github.com/dinhvantai/testing-vuejs#readme",
+  "dependencies": {
+    "expect": "^23.4.0",
+    "jsdom": "^11.11.0",
+    "jsdom-global": "^3.0.2",
+    "mocha": "^5.2.0",
+    "mocha-webpack": "^1.1.0",
+    "vue": "^2.5.16",
+    "vue-loader": "^15.2.4",
+    "vue-template-compiler": "^2.5.16",
+    "vue-test-utils": "^1.0.0-beta.11",
+    "webpack": "^4.16.0"
+  }
+}
